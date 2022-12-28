@@ -1,0 +1,69 @@
+@font-face {
+  font-family: BinancePlexBold;
+  src: url(fonts/IBMPlexSans-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexItalic;
+  src: url(fonts/IBMPlexSans-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexExtraLight;
+  src: url(fonts/IBMPlexSans-ExtraLight.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexExtraLightItalic;
+  src: url(fonts/IBMPlexSans-ExtraLightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexItalic;
+  src: url(fonts/IBMPlexSans-Italic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexLight;
+  src: url(fonts/IBMPlexSans-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexLightItalic;
+  src: url(fonts/IBMPlexSans-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexMedium;
+  src: url(fonts/IBMPlexSans-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexMediumItalic;
+  src: url(fonts/IBMPlexSans-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexRegular;
+  src: url(fonts/IBMPlexSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexSemiBold;
+  src: url(fonts/IBMPlexSans-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexSemiBoldItalic;
+  src: url(fonts/IBMPlexSans-SemiBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexThin;
+  src: url(fonts/IBMPlexSans-Thin.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: BinancePlexThinItalic;
+  src: url(fonts/IBMPlexSans-ThinItalic.ttf) format("truetype");
+}
