@@ -4,3 +4,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary-200 {
+    @apply w-full md:w-[200px] bg-primary hover:opacity-[0.9] text-secondary rounded font-BinancePlexSemiBold cursor-pointer flex justify-center items-center gap-2 text-sm md:text-base mt-6 md:mt-7 px-6 py-3;
+  }
+}
