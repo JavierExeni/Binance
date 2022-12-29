@@ -1,0 +1,9 @@
+.card-token:hover .arrow-container {
+  background-color: #fcd535;
+  color: #1e2329;
+}
+
+.card-token:hover .arrow-container .arrow {
+  filter: brightness(0) saturate(100%) invert(10%) sepia(7%) saturate(1651%)
+    hue-rotate(173deg) brightness(95%) contrast(90%);
+}
