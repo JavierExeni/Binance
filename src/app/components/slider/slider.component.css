@@ -1,0 +1,67 @@
+.cards-container {
+  width: 200%;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
+}
+
+#two:checked ~ .cards-container {
+  margin-left: -100%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+.cards .card {
+  overflow-x: hidden;
+}
+
+.cards .card .img img {
+  object-fit: cover;
+}
+
+.slider-button {
+  display: flex;
+  margin: 0px 20px;
+  justify-content: center;
+}
+
+.slider-button label {
+  height: 8px;
+  width: 8px;
+  background-color: #eaecef;
+  margin: 0 3px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.slider-button .active {
+  width: 24px;
+  background-color: #fcd535;
+}
+
+#one:checked ~ .slider-button label.one {
+  width: 24px;
+  background-color: #fcd535;
+}
+
+#two:checked ~ .slider-button label.two {
+  width: 24px;
+  background-color: #fcd535;
+}
+
+#two:checked ~ .slider-button label.one {
+  width: 8px;
+  background-color: #eaecef;
+}
+
+#one:checked ~ .slider-button label.two {
+  width: 8px;
+  background-color: #eaecef;
+}
+
+input[type="radio"] {
+  display: none;
+}
