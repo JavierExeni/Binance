@@ -38,6 +38,7 @@
   width: 24px;
   height: 24px;
   text-align: center;
+  transition: all 0.5 ease;
 }
 
 .close-menu .group-sesion,
@@ -55,6 +56,16 @@
 
 .nav-links-mobile-items {
   display: block;
+}
+
+.nav-links-items li:hover svg {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(50%) saturate(2685%)
+    hue-rotate(9deg) brightness(115%) contrast(91%);
+}
+
+.nav-links-items li:hover i {
+  margin-top: 8px;
+  transform: rotate(3.142rad);
 }
 
 .nav-links-items,

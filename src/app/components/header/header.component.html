@@ -16,7 +16,7 @@
       <ul
         class="nav-links-items flex items-center gap-5 font-BinancePlexRegular text-primary"
       >
-        <li>
+        <li class="hover:text-yellowprimary cursor-pointer">
           <a class="w-8 flex gap-2">
             <svg
               version="1.1"
@@ -40,49 +40,54 @@
             <i class="fa-solid fa-sort-down text-gray"></i>
           </a>
         </li>
-        <li class="flex items-center">
+        <li class="flex items-center hover:text-yellowprimary cursor-pointer">
           <a>Comprar criptos</a>
           <span class="country-badge">EUR</span>
           <i class="fa-solid fa-sort-down text-gray self-baseline ml-1.5"></i>
           <!-- <i class="fa-solid fa-sort-down"></i> -->
         </li>
-        <li>
+        <li class="hover:text-yellowprimary cursor-pointer">
           <a>Mercados</a>
         </li>
-        <li class="flex items-center">
+        <li class="flex items-center hover:text-yellowprimary cursor-pointer">
           <a>Trading</a>
           <i class="fa-solid fa-sort-down text-gray self-baseline ml-1.5"></i>
         </li>
-        <li class="flex items-center">
+        <li class="flex items-center hover:text-yellowprimary cursor-pointer">
           <a>Derivados</a>
           <i class="fa-solid fa-sort-down text-gray self-baseline ml-1.5"></i>
         </li>
-        <li class="flex items-center">
+        <li class="flex items-center hover:text-yellowprimary cursor-pointer">
           <a>Earn</a>
           <i class="fa-solid fa-sort-down text-gray self-baseline ml-1.5"></i>
         </li>
-        <li class="flex items-center">
+        <li class="flex items-center hover:text-yellowprimary cursor-pointer">
           <a>Finanzas</a>
           <i class="fa-solid fa-sort-down text-gray self-baseline ml-1.5"></i>
         </li>
-        <li>
+        <li class="hover:text-yellowprimary cursor-pointer">
           <a>NFT</a>
         </li>
-        <li class="flex items-center">
+        <li class="flex items-center hover:text-yellowprimary cursor-pointer">
           <a>Institucional</a>
           <i class="fa-solid fa-sort-down text-gray self-baseline ml-1.5"></i>
         </li>
-        <li>
+        <li class="hover:text-yellowprimary cursor-pointer">
           <a>Feed</a>
         </li>
       </ul>
     </div>
 
     <div class="flex gap-7">
-      <button id="btn-sesion" class="font-BinancePlexRegular text-primary">
+      <button
+        id="btn-sesion"
+        class="font-BinancePlexRegular text-primary hover:text-yellowprimary"
+      >
         Iniciar sesión
       </button>
-      <button class="flex gap-1 items-center py-1.5 px-3 rounded bg-primary">
+      <button
+        class="flex gap-1 items-center py-1.5 px-3 rounded bg-primary hover:opacity-[0.9]"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -100,18 +105,18 @@
         >
       </button>
 
-      <button id="btn-download">
+      <button id="btn-download" class="hover:text-yellowprimary cursor-pointer">
         <i class="fa-solid fa-download text-lg"></i>
       </button>
 
       <div id="features" class="flex items-center gap-3">
-        <button>
+        <button class="hover:text-yellowprimary cursor-pointer">
           <i class="fa-solid fa-globe text-lg"></i>
         </button>
         <span class="w-px h-3.5 bg-lightgray"></span>
-        <button>USD</button>
+        <button class="hover:text-yellowprimary cursor-pointer">USD</button>
         <span class="w-px h-3.5 bg-lightgray"></span>
-        <button>
+        <button class="hover:text-yellowprimary cursor-pointer">
           <i class="fa-solid fa-moon text-base"></i>
         </button>
       </div>
@@ -122,7 +127,7 @@
     </div>
   </nav>
 
-  <div  class="bg-secondary">
+  <div class="bg-secondary">
     <div
       class="flex justify-center items-center m-auto max-w-5xl px-4 md:px-6 py-3"
     >
@@ -168,7 +173,9 @@
       ></i>
     </div>
     <div class="group-sesion flex flex-col justify-center gap-2 p-4">
-      <button class="font-BinancePlexRegular text-primary py-2.5 px-4">
+      <button
+        class="font-BinancePlexRegular text-primary py-2.5 px-4 outline-none"
+      >
         Iniciar sesión
       </button>
       <button
