@@ -11,6 +11,9 @@ import { TableCcurrencyComponent } from './components/table-ccurrency/table-ccur
 import { CardTradeComponent } from './components/card-trade/card-trade.component';
 import { CardMobileComponent } from './components/card-mobile/card-mobile.component';
 import { GridTokensComponent } from './components/grid-tokens/grid-tokens.component';
+import { CardPossibilityComponent } from './components/card-possibility/card-possibility.component';
+import { GridQrOsComponent } from './components/grid-qr-os/grid-qr-os.component';
+import { JoinUsComponent } from './components/join-us/join-us.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { GridTokensComponent } from './components/grid-tokens/grid-tokens.compon
     TableCcurrencyComponent,
     CardTradeComponent,
     CardMobileComponent,
-    GridTokensComponent
+    GridTokensComponent,
+    CardPossibilityComponent,
+    GridQrOsComponent,
+    JoinUsComponent
   ],
   imports: [
     BrowserModule,
