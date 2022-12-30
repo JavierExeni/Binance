@@ -1,0 +1,4 @@
+button:hover .svg-icon{
+  filter: brightness(0) saturate(100%) invert(65%) sepia(50%) saturate(2685%)
+    hue-rotate(9deg) brightness(115%) contrast(91%);
+}
