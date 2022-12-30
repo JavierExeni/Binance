@@ -122,7 +122,10 @@
       </div>
 
       <button class="hamburguer-icon text-xl w-5">
-        <i (click)="isClosed = false" class="fa-sharp fa-solid fa-bars"></i>
+        <i
+          (click)="isClosed = false; body.classList.replace('side-closed','side-open')"
+          class="fa-sharp fa-solid fa-bars"
+        ></i>
       </button>
     </div>
   </nav>
@@ -168,7 +171,9 @@
   >
     <div class="p-4">
       <i
-        (click)="isClosed = true"
+        (click)="
+          isClosed = true; body.classList.replace('side-open', 'side-closed')
+        "
         class="fa-solid fa-xmark text-xl text-center text-gray"
       ></i>
     </div>

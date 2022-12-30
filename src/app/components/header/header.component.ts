@@ -6,12 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  body = document.body;
+
 
   isClosed: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
+    this.body.classList.add('side-closed');
   }
 
 }
